@@ -543,11 +543,12 @@ app.get('/idPregunta', (req, res) => {
 
 
 
-app.post('/idPreguntaCuento', (req, res) => {
+app.get('/idPreguntaCuento/:id', (req, res) => {
     //console.log(util.inspect(req, false,null));
     var client = new pg.Client(conString);
+    var id = req.params.id;
     client.connect(function (err) {
-        client.query('SELECT * FROM questions WHERE stories_id= '+req.body.idcuento+';', function (err, result) {
+        client.query('SELECT * FROM questions WHERE stories_id= '+id+';', function (err, result) {
             if (err) {
                 return console.error('error running query', err);
             }
