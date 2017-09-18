@@ -1,0 +1,230 @@
+<div class="fondoPaginas">
+
+    <!-- Page Content -->
+
+    <div>
+        <nav>
+            <ul>
+                <li class="contenedorHome"><a href="/index">Home</a></li>
+                <li class="contenedorli2"><a href="/verHistoria">Ver Historias</a></li>
+            </ul>
+
+
+        </nav>
+
+    </div>
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-9">
+                <div class="TittleHistory">
+                    <h2 class="tit">TITULO DEL CUENTO</h2>
+                    <input id="titulo" type="text" name="fname" value=""><br>
+                    <h3>Descripción</h3>
+                    <input id="titulo" type="text" name="fdescripcion" value=""><br>
+                    <h3>Créditos</h3>
+                    <input id="titulo" type="text" name="fcreditos" value=""><br>
+                     <h3>Usuario</h3>
+                    <input id="titulo" type="text" name="fusuario" value=""><br>
+                </div>
+
+
+                <form enctype="multipart/form-data" method="post" action="/subir" class="formulario">
+                    <h2>Agrega las imágenes que quieras</h2><br/>
+                    <div class="col-md-12">
+                        <div class="col-md-4">
+                            <input name="archivo" type="file" id="imagen" />
+
+                        </div>
+                        <br /><br />
+                        <div class="col-md-4">
+                            <input type="button" class="AgregarImg" value="Agregarla" /><br />
+                        </div>
+
+                    </div>
+                </form>
+                <!--div para visualizar mensajes-->
+                <br><br><br>
+                <!--div para visualizar en el caso de imagen-->
+                <div class="showImages sizeImAg fondoCont" id="showImages"></div>
+
+           
+            <br><br><br>
+
+
+            <div class="row carousel-holder">
+
+                <div class="col-md-10 col-sm-10">
+                    <div class="nav-dots">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active nav-dot">
+                            <div class="hojas" id="n1"></div>
+                        </li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1" class="nav-dot">
+                            <div class="hojas" id="n2"></div>
+                        </li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2" class="nav-dot">
+                            <div class="hojas" id="n3"></div>
+                        </li>
+                        <li data-target="#carousel-example-generic" data-slide-to="3" class="nav-dot">
+                            <div class="hojas" id="n4"></div>
+                        </li>
+
+
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-sm-2">
+                    <button class="NuevaHoja"><img  class="agregar" src="../imagenes/agregar.png"></button>
+                </div>
+
+
+
+                <div class="col-md-12">
+                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div id="hojaBln1">
+                                    <p>Portada</p>
+
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div id="hojaBln2">
+                                    <p>P1</p>
+
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div id="hojaBln3">
+                                    <p>P2</p>
+
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div id="hojaBln4">
+                                    <p>P3</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            <!--
+
+                    <div class="row">
+                        <p>Crea tu cuestionario</p>
+                        <a href=""><img class="tamaño" src="../imagenes/cuestionario.png" alt=""></a>
+                    </div>
+
+-->
+        </div>
+
+
+        <div class="col-md-3">
+            <div>
+                <br><br><br>
+                <button class="button3" id="preguntas">Hacer Preguntas</button>
+                <!--   <a href=""><img class="tamaño" src="../imagenes/guardar.png" alt=""></a>-->
+                <br><br><br>
+                <button class="button2">Limpiar Imágenes</button>
+                <!--           <a href=""><img class="tamaño" src="../imagenes/cancelar.png" alt=""></a>-->
+                <br><br><br>
+
+                <!--       <button id="guardar" name="guardar">Guardar Todo</button>-->
+                <button class="button" id="boton">Guardar Cuento</button>
+
+            </div>
+        </div>
+         </div>
+    
+
+    <div class="col-md-12">
+        <div class="col-md-9">
+            <div class="FormAudio ">
+                <div class="">
+                    <form enctype="multipart/form-data" class="formulario2">
+                        <h2>Agrega tus audios</h2><br/>
+                        <div class="col-md-12">
+                            <div class="col-md-4">
+                                <input name="archivo" type="file" id="audios" />
+
+                            </div>
+                            <br /><br />
+                            <div class="col-md-4">
+                                <input type="button" class="AgregarAudio " value="Agregar Audios" /><br />
+                            </div>
+
+                        </div>
+                    </form>
+                    <!--div para visualizar mensajes-->
+                    <br><br><br>
+                    <!--div para visualizar en el caso de imagen-->
+                    <div class="insertAudio sizeImAg fondoCont" id="showImages">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ContAudios col-md-3">
+            <h2>Audios</h2>
+            <p>Coloca tus audios en el orden correspondiente</p>
+            <div class="ContAu">
+                <h3>Audio1</h3><span><div class="HojAud" id="au1"></div></span>
+                <h3>Audio2</h3><span><div class="HojAud" id="au2"></div></span>
+                <h3>Audio3</h3><span><div class="HojAud" id="au3"></div></span>
+                <h3>Audio4</h3><span><div class="HojAud" id="au4"></div></span>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="col-md-12 contPreguntas">
+        <div class="col-md-9">
+            <div class="contPreguntas fondoContPre col-md-9">
+                <h1>Preguntas</h1>
+                <div class="preg1">
+                    <h2>Pregunta 1</h2>
+                    <p>Escriba su pregunta</p>
+                    <input id="preg1" type="text" name="preg1" value="">
+                    <div class="col-md-12">
+                        <div class="col-md-4 ImaPre fIm" id="ImP1">1</div>
+                        <div class="col-md-4 ImaPre fIm" id="ImP2">2</div>
+                        <div class="col-md-4 ImaPre fIm" id="ImP3">3</div>
+                    </div>
+                    <h4>Respuesta</h4><span><input id="resp1" type="text" name="resp1" value=""></span>
+                </div>
+
+                <div class="preg2">
+                    <h2>Pregunta 2</h2>
+                    <p>Escriba su pregunta</p>
+                    <input id="preg2" type="text" name="preg2" value="">
+                    <div class="col-md-12">
+                        <div class="col-md-4 ImaPre fIm" id="ImP4">1</div>
+                        <div class="col-md-4 ImaPre fIm" id="ImP5">2</div>
+                        <div class="col-md-4 ImaPre fIm" id="ImP6">3</div>
+                    </div>
+                    <h4>Respuesta</h4><span><input id="resp2" type="text" name="resp2" value=""></span>
+                </div>
+                <br><br><br>
+              
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<br><br><br>
+
+</div>
+
+
+<!-- Bootstrap Core JavaScript -->
+<script src="../js/bootstrap.min.js"></script>

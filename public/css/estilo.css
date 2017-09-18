@@ -1,0 +1,175 @@
+.hojas{
+    width: 100px;
+    height: 100px;
+    background-color: lightsalmon;
+     
+}
+
+
+
+
+
+.hojas img{
+    width: 90%;
+    height: 80%;
+}
+
+.nav-dot {
+	/*estilo para label*/
+	margin: 4px 4px;
+	position: relative;
+	border-radius: 100%;
+	display: inline-block;
+	background-color: orange;
+}
+
+.item{ 
+    width: 100%;
+    height: 500px;
+    background-color: white;}
+
+.agregar{
+     width: 100px;
+    height: 100px;
+}
+
+.item img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.sizeImAg img{
+     width: 150px;
+    height: 100px;
+}
+
+.tam{
+    width: 300px;
+    height: 150px;
+}
+
+body{
+    background: url("../imagenes/fondo.jpg") fixed no-repeat;
+      background-size: cover;
+    padding-top: 1px;
+}
+
+.contenedorli {
+    width: 189px;
+    height: 189px;
+    right: 30px;
+    top: -6px;
+    background: url(../imagenes/1.png)no-repeat;
+    background-position: top;
+    background-size: 60%;
+}
+
+
+.contenedorHome {
+    width: 189px;
+    height: 189px;
+    right: 30px;
+    top: -6px;
+    background: url(../imagenes/2.png)no-repeat;
+    background-position: top;
+    background-size: 60%;
+}
+
+
+.iconos img{
+    width: 120px;
+    height: 80px;
+    float: right;
+}
+
+.tamaño{
+    width: 120px;
+    height: 80px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.fondoCont{
+    background-color: white;
+     opacity: 0.5;
+    width: 100%;
+    height:200px;
+    margin-top: 50px;
+    //opacity: 0.5;
+}
+
+#titulo{
+    width: 100%;
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20pt;
+    
+}
+
+.TittleHistory h2{
+    font-family: fantasy;
+    color: blue;
+    text-align: center;
+}
+
+input{
+    text-align: center;   
+}
+
+.row p{
+    font-family: serif;
+    color: brown;
+    font-size: 30pt;
+    float: left;
+}
+
+.HojAud {
+    width: 100%;
+    height: 40px;
+    background-color: #D0A9F5;
+    float: right;
+    text-align: center;
+}
+
+.ContAu h3{   
+   text-align: center;
+}
+
+
+.fondoContPre{
+    width: 100%;
+    height: auto;
+    background-color: #CEF6CE;
+}
+
+.fIm{
+    width: 200px;
+    height: 120px;
+    background-color: bisque;
+    margin: 20px;
+    
+}
+
+
+#preg1{
+    width: 100%;
+}
+
+#preg2{
+    width: 100%;
+}
+
+.ImaPre img{
+    width: 100%;
+    height: auto;
+}
+
+#btnG{
+    width: 100px;
+    height: 50px;
+    text-align: center;
+}
