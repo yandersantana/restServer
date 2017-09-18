@@ -31,7 +31,7 @@ app.use(permitirCrossDomain);
 
 const pg = require('pg');
 pg.defaults.ssl=true;
-var conString = "postgres://cvhyoalkzzgrxz:e4ce6729ccb65ceebf73fa431526a000e6cd291220b70edba20806cbef8320f2@ec2-23-21-197-175.compute-1.amazonaws.com:5432/ddl5ce18ndka9t";
+var conString = "postgres://tujdqrnucrgqpm:39e9412695371b9bf128368518b9dfdb7f546e9e6fddd3ff06fb23f0ecb83e2c@ec2-54-163-227-202.compute-1.amazonaws.com:5432/dbmn4vc51hj6nb";
 
 
 
